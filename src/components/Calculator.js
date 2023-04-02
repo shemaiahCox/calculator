@@ -24,7 +24,7 @@ export default function Calculator() {
 
         //Set up running Total
         if (previousExpression && numbers.length === 0) {
-            runningTotalRef.current = eval(calcGroupRef.current[calcGroupRef.current.length - 1]);
+            runningTotalRef.current = eval(calcGroupRef.current[calcGroupRef.current.length - 1]); 
          }
 
         if (numbers.length === 0) {
