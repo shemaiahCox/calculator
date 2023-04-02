@@ -24,7 +24,7 @@ export default function Calculator() {
 
         //Set up running Total
         if (previousExpression && numbers.length === 0) {
-            runningTotalRef.current = eval(calcGroupRef.current[calcGroupRef.current.length - 1]); 
+            runningTotalRef.current = eval(calcGroupRef.current[calcGroupRef.current.length - 1]); // eslint-disable-line
          }
 
         if (numbers.length === 0) {
@@ -33,7 +33,7 @@ export default function Calculator() {
 
         // Set up Sum total
         if (currentExpression === '=') {
-            sumTotalRef.current = eval(calcGroupRef.current[calcGroupRef.current.length - 1]);
+            sumTotalRef.current = eval(calcGroupRef.current[calcGroupRef.current.length - 1]); // eslint-disable-line
             input.value = sumTotalRef.current
         }
         

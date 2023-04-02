@@ -30,6 +30,10 @@ As a user I should be able to;
 - Sum caculations without pressing equals
 - Sum calculations when pressing equals
 
+## Todo
+
+- Use eval alternative, if possible
+
 ## Available Scripts
 
 In the project directory, you can run:
